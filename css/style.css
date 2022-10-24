@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+:root {
+  --principal: rgb(210, 122, 122);
+  --secundario: rgb(24, 150, 164);
+  --mensual: rgb(113, 198, 188);
+  --diaria: rgb(150, 202, 126);
+  --urgente: rgb(197, 94, 90);
+  --btn: rgb(151, 239, 229);
+}
+
+body {
+  font-family: Montserrat;
+  background-color: var(--secundario);
+}
+
+container {
+  width: 100%;
+}
+
+h2 {
+  font-size: 12px;
+  margin: 0 auto;
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  color: black;
+  padding: 5px;
+  margin: 50px auto;
+}
+
+input:last-child {
+  height: 40px;
+  width: 100px;
+  font-weight: 700;
+  color: black;
+  background-color: var(--btn);
+  border-radius: 8px;
+}
+
+.container select {
+  height: 40px;
+  width: 240px;
+  background-color: var(--btn);
+  margin: 0 10px;
+}
+
+section {
+  width: 90vh;
+  margin: 50px auto;
+}
+
+section select {
+  margin: 0 10px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  height: 40px;
+  width: 220px;
+  background-color: ;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article h4 {
+  padding: 3em;
+  width: 80%;
+  color: black;
+}
+
+article input {
+  padding: auto;
+  width: 5%;
+  background-color: var(--secundario);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.urgente {
+  background-color: var(--urgente);
+}
+
+.mensual {
+  background-color: var(--mensual);
+}
+
+.diaria {
+  background-color: var(--diaria);
+}
